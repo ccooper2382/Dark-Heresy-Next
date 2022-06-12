@@ -4,6 +4,8 @@ Dark Heresy reference with Next.js
 
 dark-heresy-refrence A web based reference for the RPG Dark Heresy
 
+6/12/22  Doing the tables in csv files then using a csv to html converter is going to work very well.  Thank the Machine God for Reddit.  The task of making all the tables just went from soul shredding to mearly time consuming.
+
 6/10/22  After many tutorials and false starts I beleive that I am finally ready to develop this in ernest.  Next.js seems to be a good tool for my needs. I figured out the basic navigation but I still need to figure out how to do nested links 
 
 12/5/21 Made some progress getting JavaScript loaded dynamically with jQuery. Got it to log to console but haven't managed to get click event handlers to work
