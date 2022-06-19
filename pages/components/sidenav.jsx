@@ -7,12 +7,75 @@ function Sidenav(props) {
         <aside className={classes.sidenav}>
             <nav>
                 <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/Character-Creation/Career-Paths">Career Paths</Link></li>
-                    <li><Link href="/Character-Creation/Homeworld">Homeworld</Link></li>
-                    <li><Link href="/Character-Creation/Characteristics">Characteristics</Link></li>
-                    <li><Link href="/Character-Creation/Skills">Skills</Link></li>
-                   <li><Link href="/Character-Creation/Talents">Talents</Link></li>
+                    <li>
+                        <h1>Career Paths</h1>
+                        <ul>
+                            <li>
+                                <Link href="/Character-Creation/Career-Paths/Adept">Adept</Link>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h1>Homeworld</h1>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h1>Characteristics</h1>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h1>Skills</h1>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h1>Talents</h1>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h1></h1>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </nav>
         </aside>
