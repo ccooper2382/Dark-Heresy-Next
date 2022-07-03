@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import Image from "next/image";
 import AdeptRanks from "./Adept-Ranks";
+import adeptPic from "/public/images/career-paths/adept_image.png"
 import classes from  "./AdeptHeader.module.css"
 
 function AdeptHeader() {
@@ -8,8 +9,13 @@ function AdeptHeader() {
         <Fragment>
         <h2>Adept</h2>
     <div className={classes.header}>
-        <Image className={classes.left} src="/images/career-paths/adept_image.png" alt="Adept" width={500} height={500}/>
-        <AdeptRanks className={classes.right}/>
+        <div className={classes.left} >
+            <Image src={adeptPic} alt="Adept" />
+        </div>
+        <div className={classes.right}>
+            <AdeptRanks />
+        </div>
+
     </div>
         </Fragment>
     );

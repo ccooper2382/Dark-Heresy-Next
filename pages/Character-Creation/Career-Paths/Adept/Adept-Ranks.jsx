@@ -1,8 +1,10 @@
 import React from 'react';
+import classes from './Adept-Ranks.module.css'
 
 function AdeptRanks() {
     return (
-        <div>
+        <div className={classes.container}>
+            <div className={classes.single}>
             <div>
                 <h3>Archivist</h3>
                 <p>XP Level: 0–499</p>
@@ -15,6 +17,8 @@ function AdeptRanks() {
                 <h3>Scribe</h3>
                 <p>XP Level: 1,000–1,999</p>
             </div>
+            </div>
+            <div className={classes.double}>
             <div>
                 <h3>Inditor</h3>
                 <p>XP Level: 2,000–2,999</p>
@@ -23,10 +27,14 @@ function AdeptRanks() {
                 <h3>Chirurgeon</h3>
                 <p>XP Level: 2,000–2,999</p>
             </div>
+            </div>
+            <div className={classes.single}>
             <div>
                 <h3>Scholar</h3>
                 <p>XP Level: 3,000–5,999</p>
             </div>
+            </div>
+            <div className={classes.double}>
             <div>
                 <h3>Lexographer</h3>
                 <p>XP Level: 6,000–7,999</p>
@@ -54,6 +62,7 @@ function AdeptRanks() {
                 <h3>Sage
                     Logister</h3>
                 <p>XP Level: 10,000–14,999</p>
+            </div>
             </div>
         </div>
     );

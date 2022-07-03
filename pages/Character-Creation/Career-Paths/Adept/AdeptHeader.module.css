@@ -5,8 +5,11 @@
 
 .left {
     width: 50%;
+    height: auto;
+    padding: 3em;
 }
 
 .right {
     width: 50%;
+
 }
