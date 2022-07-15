@@ -1,8 +1,15 @@
 import React from 'react';
+import {getCharacteristics} from "../../../public/characteristics-data";
+import CharacteristicList from "./Characteristic-List";
 
-function Index(props) {
+function Index() {
+    const characteristics = getCharacteristics();
+
     return (
-        <div>Characteristics page</div>
+<div>
+        <h1>Characteristics</h1>
+        <CharacteristicList items={characteristics}/>
+</div>
     );
 }
 

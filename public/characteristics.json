@@ -1,5 +1,4 @@
-{
-  "characteristics":
+const characteristics =
 [
   {"name":"Weapon Skill (WS)" ,"description": "Weapon Skill measures your character’s competence in hand-to-hand fighting, whether using fists, knives or chainswords." },
   {"name":"Ballistic Skill (BS)" ,"description":"Ballistic Skill reflects your character’s accuracy with ranged weapons, such as lasguns, crossbows and autopistols."  },

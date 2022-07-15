@@ -32,15 +32,8 @@ function Sidenav(props) {
                         </ul>
                     </li>
                     <li>
-                        <h1>Characteristics</h1>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                        <h1><Link href = "/Character-Creation/Characteristics">Characteristics</Link></h1>
+
                     </li>
                     <li>
                         <h1>Skills</h1>
