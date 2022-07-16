@@ -1,8 +1,13 @@
 import React from 'react';
+import SkillsList from "./Skills-List";
+import {getSkills} from "../../../public/skills";
 
-function Index(props) {
+function Index() {
+    const skills = getSkills()
     return (
-        <div>skills page</div>
+        <div>
+            <SkillsList items={skills}/>
+        </div>
     );
 }
 
