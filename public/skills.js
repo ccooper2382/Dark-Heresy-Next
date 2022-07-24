@@ -33,54 +33,28 @@ const skills = [
             "Action.</p>"
     },
     {
-        "name": "",
-        "type": "",
-        "characteristic": "",
+        "name": "Awareness",
+        "type": "Basic",
+        "characteristic": "Perception",
         "descriptor": "",
-        "description": ""
-    },
-    {
-        "name": "",
-        "type": "",
-        "characteristic": "",
-        "descriptor": "",
-        "description": ""
-    },
-    {
-        "name": "",
-        "type": "",
-        "characteristic": "",
-        "descriptor": "",
-        "description": ""
-    },
-    {
-        "name": "",
-        "type": "",
-        "characteristic": "",
-        "descriptor": "",
-        "description": ""
-    },
-    {
-        "name": "",
-        "type": "",
-        "characteristic": "",
-        "descriptor": "",
-        "description": ""
-    },
-    {
-        "name": "",
-        "type": "",
-        "characteristic": "",
-        "descriptor": "",
-        "description": ""
-    },
-    {
-        "name": "",
-        "type": "",
-        "characteristic": "",
-        "descriptor": "",
-        "description": ""
+        "description": "<p>The Awareness skill reflects your " +
+            "ability to perceive hidden dangers " +
+            "and to notice small details about your " +
+            "physical surroundings. You use the " +
+            "Awareness skill to notice ambushes, " +
+            "spot traps and discern other threats to " +
+            "you and your allies. Awareness is not " +
+            "tied to any one sense; it encompasses " +
+            "them all.</p>" +
+            "<p>When using Awareness to detect" +
+            "a hidden enemy, the Test is always" +
+            "Opposed. Otherwise, the thing you are" +
+            "trying to detect applies a Difficulty based " +
+            "on how cunningly concealed it is.</p>" +
+            "<p>An Awareness Test is usually a Free " +
+            "Action made in reaction to something</p>"
     }
+
 ]
 
 export function getSkills() {
