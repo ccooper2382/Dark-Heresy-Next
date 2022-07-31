@@ -4,6 +4,8 @@ Dark Heresy reference with Next.js
 
 dark-heresy-refrence A web based reference for the RPG Dark Heresy
 
+Ive been debating weather or not to use state.  At this point I don't think it's necessary.  There is no real interactivity and there is no need for components to talk to one another.  The only actions the user can make are what page to display and to make a die roll that... hmm the user makes a roll then based on that roll change the state which updates the dom.   I don't think so.  All the roll does is determing which entry on a table gets highlighted or maybey gets displayed in a modal or 'resulsts element'.  State might still be useful here I'll need to play around with it.
+
 7/2/22 Apparently Next.js likes to have things like images living in the public folder or it won't load
 
 6/12/22  Doing the tables in csv files then using a csv to html converter is going to work very well.  Thank the Machine God for Reddit.  The task of making all the tables just went from soul shredding to mearly time consuming.
