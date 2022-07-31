@@ -1,4 +1,6 @@
 import React from 'react';
+import {getStatByName} from "../../../../public/characteristics-data";
+
 
 function AdeptCharacteristicAdvances() {
     return (
@@ -16,7 +18,11 @@ function AdeptCharacteristicAdvances() {
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Weapon Skill</td>
+                    <td>
+                        <span>Weapon Skill (WS)</span>
+                        <br/>
+                        <span>{getStatByName("Weapon Skill").description}</span>
+                    </td>
                     <td align="right">500</td>
                     <td align="right">750</td>
                     <td align="right">1000</td>

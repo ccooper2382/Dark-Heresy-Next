@@ -1,9 +1,9 @@
 import React from 'react';
 
-function CharacteristicTile({name, description}) {
+function CharacteristicTile({name, abbreviation, description}) {
     return (
         <div>
-            <h1>{name}</h1>
+            <h1>{name} ({abbreviation})</h1>
             <p>{description}</p>
         </div>
     );
